@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wholescreen{
+    background-color:black;
+    color:white;
+    height: 100vh;
+}
+
+.aligncenter{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.header{
+    color:violet;
+    font-size: 25px;
+    line-height:12vh;
+    border-bottom:1px solid white
+}
+
+.characterturn{
+    color:orange;
+    font-size: 50px;
+}
+.box{
+    height:85vh;
+    font-weight: 900;
+    font-size:32px;
+   display: flex;
+   flex-direction:column;
+   justify-content: space-evenly;
+}
+
+.row{
+  display:flex;
+  height:20vh;
+    
+}
+
+.cell{ 
+    width:10vw;
+    border:1px solid white;
+   font-size: 100px;
+   font-weight: 900;
+
+}
+
+
+.restartbtn{
+   
+    width:130px;
+    height:40px;
+    font-size:18px;
+     border-radius:10px;
+     background-color:blueviolet;
+     color: white;
+   
+
+}
+
+.yellow{
+    background-color: yellow;
+
+}
+
+.orange{
+    background-color: orange;
+}
